@@ -1,0 +1,49 @@
+* {
+Padding: 0;
+Margin: 0;
+Box-Sizing: Border-Box;
+}
+Html {
+Font-Family: "Montserrat";
+Font-Size: 20px;
+}
+Section {
+Min-Height: 100vh;
+Width: 100%;
+Display: Flex;
+Align-Items: Flex-Start;
+Background-Color: Rgb(37, 37, 37);
+Flex-Direction: Column;
+Padding: 50px 0;
+}
+Section H1 {
+Color: Rgba(255, 255, 255, 0.322);
+Text-Align: Center;
+Width: 100%;
+Font-Size: 50px;
+Margin-Bottom: 10px;
+}
+Section P {
+Text-Align: Center;
+Color: Rgba(255, 255, 255, 0.322);
+Width: 100%;
+Margin-Bottom: 40px;
+}
+.Container {
+Width: 90%;
+Max-Width: 500px;
+Margin: 0 Auto;
+Justify-Content: Center;
+}
+.Texts P {
+Color: Black;
+Text-Align: Left;
+Width: 100%;
+Background-Color: White;
+Padding: 10px;
+Border-Radius: 8px;
+Margin-Bottom: 10px;
+}
+.Texts P.Replay {
+Text-Align: Right;
+}
