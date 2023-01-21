@@ -1,0 +1,66 @@
+Body{
+Background: Ghostwhite;
+Color: Dimgray;
+Font-Family: 'Quicksand', Serif;
+Text-Align: Center;
+}
+H1{Font-Size: 200%;}
+#Container {
+Margin: 5% Auto;
+Border-Radius:5px; -Webkit-Border-Radius:5px; -Moz-Border-Radius:5px;
+Text-Align: Center;
+}
+.Box{
+Display: Inline-Block;
+Border: 1px Solid Grey;
+Width: 100px;
+Height: 100px;
+Text-Align: Center;
+Box-Sizing:border-Box; -Webkit-Box-Sizing: Border-Box; -Moz-Box-Sizing: Border-Box;
+Padding: 0px;
+}
+Span{
+Position: Absolute;
+Font-Size: 75px;
+Font-Family: 'Raleway', Sans-Serif;
+Text-Align: Center;
+Height: 75px;
+Width: 75px;
+Padding: 0px;
+Margin: 5px;
+Margin-Left: -35px;
+}
+.Top{Border-Top: None;}
+.Bottom{Border-Bottom: None;}
+.Left{Border-Left: None;}
+.Right{Border-Right: None;}
+.Alert{
+Height: 75px;
+Width : 125px;
+Display: Inline-Block;
+Background: Ghostwhite;
+Position: Relative;
+Z-Index: 7;
+Margin-Top: -50%;
+Border-Radius: 20px; -Webkit-Border-Radius: 20px; -Moz-Border-Radius: 20px;
+Box-Shadow: 0 0 75px 2px Dimgray;
+Animation: Larger 0.5s; -Webkit-Animation: Larger 0.5s; -Moz-Animation: Larger 0.5s;
+Animation-Fill-Mode: Forwards; -Webkit-Animation-Fill-Mode: Forwards; -Moz-Animation-Fill-Mode: Forwards;
+Box-Sizing: Content-Box; -Webkit-Box-Sizing: Content-Box; -Moz-Box-Sizing: Content-Box;
+Padding:30px;
+Bottom: 50px;
+Top: 0px;
+}
+@Keyframes Larger{ From{Height: 75px; Width: 125px;} To{Height: 100px;Width: 250px;}}
+@-Webkit-Keyframes Larger{ From{Height: 75px; Width: 125px;} To{Height: 100px;Width: 250px;}}
+@-Moz-Keyframes Larger{ From{Height: 75px; Width: 125px;} To{Height: 100px;Width: 250px;}}
+@-O-@Keyframes Larger{ From{Height: 75px; Width: 125px;} To{Height: 100px;Width: 250px;}}
+Button{
+Background: Dimgray;
+Border-Radius: 2px; -Webkit-Border-Radius: 2px; -Moz-Border-Radius: 2px;
+Color: Ghostwhite;
+Border: None;
+Outline: None;
+}
+Button:focus{Background: Silver;}
+.ActiveBox{Background: Silver;}
